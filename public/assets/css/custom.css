@@ -1,0 +1,6 @@
+.maininput{
+    margin-top: 61px;
+  }
+  input::placeholder {
+    color:#BBB2B9;
+  }

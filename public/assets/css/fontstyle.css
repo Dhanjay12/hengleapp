@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');
+.body{
+	padding: 50px 0;
+	background: rgb(8,0,5);
+	background: linear-gradient(180deg, rgba(8,0,5,1) 0%, rgba(42,0,29,1) 50%, rgba(79,0,55,1) 100%);
+	height: 100%;
+	width: 100%;
+	font-size: 18px;
+	line-height: 1.5;
+	font-family: 'Roboto', sans-serif;
+	color: #222;
+	max-width: 412px;
+}      
+.container{
+
+	max-width: 1230px;
+	width: 100%;
+	padding: 28px;
+	padding-top: 0px;
+   
+}
+
+h1{
+	font-weight: 700;
+	font-size: 45px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.header{
+	margin-bottom: 80px;
+}
+#description{
+	font-size: 24px;
+}
+.maininput {
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid #fff;
+	appearance: textfield;
+	-moz-appearance: textfield;
+	-webkit-appearance: textfield;
+	-webkit-appearance: none;
+	appearance: none;
+	margin: 0;
+}
+
+.maininput {
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid #fff;
+}
+
+/* Remove arrows for number input */
+.maininput[type="number"]::-webkit-inner-spin-button,
+.maininput[type="number"]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	appearance: none;
+	margin: 0;
+}
+
+/* Remove arrows for Firefox */
+.maininput[type="number"] {
+	-moz-appearance: textfield;
+}
+.maininput:focus {
+	outline: none;
+}
+h2 {
+    font-size: 51px;
+}
+input.maininput {
+    width: 100%;
+}
+.btn.btn-sm.btn-outline-light {
+    width: 135px;
+	border-radius: 7px 7px;
+}
+a.btn.btn-sm.btn-outline-light {
+    margin-top: 92px;
+}
+.form-check-input {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	width: 16px;
+	height: 16px;
+	border: 1px solid #fff;
+	background-color:#3F002C;
+	border-radius: 0px;
+	outline: none;
+  }
+  .form-check-input:hover {
+	border-color: #fff; /* Change the border color on hover */
+}
+.react-datepicker-wrapper {
+	width: 100% !important;
+  }
+  input#recipient-name {
+    margin-bottom: 40px;
+}input.form-control {
+    background: transparent;
+    border: 1px solid #683A59;
+}
